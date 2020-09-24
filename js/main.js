@@ -98,7 +98,7 @@ function handleAddItem(event) {
 
     // get text from the form
 
-    const itemText = event.currentTarget.itemtext.value.trim;
+    const itemText = event.currentTarget.itemtext.value.trim();
 
     event.currentTarget.itemtext.value = "";
 
@@ -116,6 +116,6 @@ function handleAddItem(event) {
 
         createList(listElem);
     } else {
-        console.log("Enter some text");
+        console.log("Enter sone text");
     }
 }
